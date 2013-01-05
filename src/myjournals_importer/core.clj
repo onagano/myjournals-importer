@@ -21,7 +21,7 @@
 
 (defn from-date
   [dt]
-  (.format (SimpleDateFormat. "yyyy/MM/dd") dt))
+  (.format (SimpleDateFormat. "yyyy-MM-dd") dt))
 
 (defn is-date
   [str]
